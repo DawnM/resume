@@ -30,6 +30,10 @@ body {
   background-color: #7F7262;
 }
 
+.bg-color-personal-info {
+  background-color: #F7F1E2;
+}
+
 /* ------------- Special Paddings / Margins / Text ------------- */
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,12 +53,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .inline-block {
   display: inline-block;
-}
-
-.section-column {
-  padding: 0 30px 30px;
-  float: none;
-  display: table-cell;
 }
 
 .row-table {
@@ -171,7 +169,7 @@ footer .cv-pdf i {
 }
 
 footer .cv-pdf i:hover {
-  color: #6BC6CE;
+  color: #9d1b4c;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
@@ -195,7 +193,7 @@ footer .cv-pdf i:hover {
 }
 
 .social-links li a i:hover{
-  background: #6BC6CE;
+  background: #9d1b4c;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
@@ -205,5 +203,33 @@ footer .cv-pdf i:hover {
 #footer-details {
   margin: 20px;
 }
+
+
+/* ------------- Three Reasons ------------- */
+
+.three-reasons-icon {
+  font-size: 26px;
+  color: #9d1b4c;
+}
+
+.three-reasons-heading {
+  margin-bottom: 15px;
+
+}
+
+
+/* ------------- Personal Info ------------- */
+
+@media(min-width: 992px) {
+  .section-column {
+  padding: 0 30px 30px;
+  float: none;
+  display: table-cell;
+  }
+}
+
+
+
+
 
 
