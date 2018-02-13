@@ -2,8 +2,16 @@
 
 /* ------------- Site Colours ------------- */
 
+body {
+  background-color: #7F7262;
+}
+
 .bg-color-name-title {
   background-color: #998976;
+}
+
+.bg-color-three-reasons {
+  background-color: #fff;
 }
 
 .ul-menu-color-home {
@@ -41,6 +49,23 @@ h1, h2, h3, h4, h5, h6 {
 
 .inline-block {
   display: inline-block;
+}
+
+.section-column {
+  padding: 0 30px 30px;
+  float: none;
+  display: table-cell;
+}
+
+.row-table {
+  display: table;
+}
+
+.section-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 40px;
 }
 
 /* ------------- Heading ------------- */
