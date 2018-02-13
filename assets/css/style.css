@@ -82,7 +82,7 @@ header {
 }
 
 .heading {
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 .logo {
@@ -333,6 +333,11 @@ button[type="submit"] {
 /* ------------- Media Queries ------------- */
 
 @media(min-width: 992px) {
+  
+  .heading {
+  margin-left: 50px;
+  }
+
   .section-column {
   padding: 0 30px 30px;
   float: none;
